@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple-icons/siimple-icons.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <center>
+      <div class="loader" id="loader">
+        <img src="loading-gif.gif" alt="">
+        <div class="text">Loading...</div>
+      </div>
+    </center>
+
+    
+    <div class="main-container">
+
+    <h1>Weather app </h1>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Search for any city</h3>
+        <div class="search-bar">
+          <input class="city-input" type="text" placeholder="Search a city">
+          <button class="search-btn"><i class="si-search"></i></button>
+        </div>
+      
+        <!-- <div class="separator"></div> -->
+        <div><br></div>
+        <button class="location-btn"><i class="si-location"></i>Use my location</button>
+      </div>
+     
+    </div>
+<br>
+    <div class="weather-data">
+      <div class="current-weather">
+        <div class="details">
+          <h2></h2>
+          <h6>Temperature: °C</h6>
+          <h6>Wind: M/S</h6>
+          <h6>Humidity:%</h6>
+        </div>
+      </div>
+      
+      <div class="days-forecast">
+        <h2>Forecasts</h2>
+        <ul class="weather-cards">
+          <li class="card">
+            <h3></h3>
+            <h6>Temp - C</h6>
+            <h6>Wind - M/S</h6>
+            <h6>Humidity - %</h6>
+          </li>
+          <li class="card">
+            <h3></h3>
+            <h6>Temp - C</h6>
+            <h6>Wind - M/S</h6>
+            <h6>Humidity - %</h6>
+          </li>
+          <li class="card">
+            <h3></h3>
+            <h6>Temp - C</h6>
+            <h6>Wind - M/S</h6>
+            <h6>Humidity - %</h6>
+          </li>
+          <li class="card">
+            <h3></h3>
+            <h6>Temp - C</h6>
+            <h6>Wind - M/S</h6>
+            <h6>Humidity - %</h6>
+          </li>
+          <li class="card">
+            <h3></h3>
+            <h6>Temp - C</h6>
+            <h6>Wind - M/S</h6>
+            <h6>Humidity - %</h6>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+    <script src="script.js" defer></script>
+  </body>
+</html>
